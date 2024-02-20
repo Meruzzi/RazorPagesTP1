@@ -1,0 +1,15 @@
+﻿@page 
+@model IndexModel
+@{
+}
+
+<div class="text-center">
+    <h1 class="display-4">Insira seu nome</h1>
+   <form method="post">
+        <input type="text" asp-for="Usuario.Nome"/>
+       <button type="submit">Enviar</button>
+   </form>
+
+
+   <h2>@Model.Saudacoes</h2>
+</div>
